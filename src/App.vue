@@ -3,11 +3,13 @@
 	import Card from '@/components/Card.vue'
 	import Button from '@/components/Button.vue'
 	import ButtonFloating from '@/components/ButtonFloating.vue'
+	import Dialog from '@/components/Dialog.vue'
 </script>
 
 <template>
  	<AppBar/>
  	<main class="mt-15 p-3">
+ 		<Dialog/>
  		<Card class="mb-6"/>
  		<Button/>
  		<ButtonFloating/>
