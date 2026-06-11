@@ -1,19 +1,19 @@
 <template>
 
 <!-- @ Appbar -->
-<div class="fixed top-0 w-full h-15 flex items-center p-3 bg-slate-900 text-white select-none">
+<div class="fixed top-0 w-full h-15 flex items-center p-3 bg-slate-900 text-white select-none z-3">
 	<!-- @ Sidebar -->
-	<div id="appbar-sidenav">
+	<div id="appbar-sidenav" class="z-9">
 		<!-- Sidebar/Button -->
 		<svg @click="handleSidebar" class="active:bg-black/25 p-2 rounded-full" width="45" height="45" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path d="M4 6H20M4 12H20M4 18H20" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 		</svg>
 		<!-- % Sidebar/Button -->
 		<!-- @ Sidebar/ListOverlay -->
-		<div @click="handleSidebar" :class="sidebarIsActive ? '' : 'hidden'" class="fixed left-0 top-0 bottom-0 right-0 z-1 bg-black/25"></div>
+		<div @click="handleSidebar" :class="sidebarIsActive ? '' : 'hidden'" class="fixed left-0 top-0 bottom-0 right-0 bg-black/25"></div>
 		<!-- % Sidebar/ListOverlay -->
 		<!-- @ Sidebar/List -->
-		<div :class="sidebarIsActive ? 'fixed' : 'hidden'" class="w-[72%] left-0 top-0 bottom-0 z-15 bg-white text-black">
+		<div :class="sidebarIsActive ? 'fixed' : 'hidden'" class="w-[72%] left-0 top-0 bottom-0 bg-white text-black">
 			<ul class="p-3 flex flex-col">
 				<li class="active:bg-gray-100 p-3 flex items-center gap-3">
 					<svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
