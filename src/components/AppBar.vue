@@ -49,7 +49,7 @@
 		<div @click="handleMenu" id="appbar-menu-overlay" :class="menuIsActive ? 'fixed' : ''" class="left-0 top-0 bottom-0 right-0"></div>
 		<!-- % Menu/ListOverlay -->
 		<!-- @ Menu/List -->
-		<div  id="appbar-menu-list" :class="menuIsActive ? '' : 'hidden'" class="min-w-3 min-h-3 bg-white shadow absolute top-15 right-3 text-black z-9">
+		<div  id="appbar-menu-list" :class="menuIsActive ? '' : 'hidden'" class="min-w-3 min-h-3 bg-white shadow absolute top-15 right-3 text-black z-6">
 			<ul class="flex flex-col">
 				<li class="active:bg-black/25 p-3 cursor-pointer hover:bg-gray-100">Profile</li>
 				<li class="active:bg-black/25 p-3 cursor-pointer hover:bg-gray-100">Logout</li>
