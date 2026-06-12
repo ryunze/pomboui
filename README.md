@@ -10,8 +10,8 @@ Komponen siap pakai menggunakan TailwindCSS (https://tailwindcss.com). Terinspir
 - Raised Button
 - Flat Button
 - Floating Action Button (FAB) ❔
-- Cards ❔
-- Lists
-- Text Fields (Input) ❔
+- Cards ✅
+- Lists ✅
+- Text Fields (Input) ✅
 - Dialogs ✅
-- Snackbars
+- Snackbars ✅
